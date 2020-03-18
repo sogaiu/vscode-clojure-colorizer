@@ -10,7 +10,6 @@ To install from a .vsix:
 
 ```
 # clone repository
-cd ~/src
 git clone https://github.com/sogaiu/vscode-clojure-colorizer
 cd vscode-clojure-colorizer
 
@@ -20,7 +19,7 @@ visual-studio-code --install-extension clojure-colorizer-*.vsix
 
 Alternatively, via the VSCode GUI:
 
-* `File > Preferences > Extensions`
+* Navigate to Extensions
 * Click on the `...` at the top right of the EXTENSIONS area
 * Choose `Install from VSIX...` and find the .vsix file
 
@@ -28,7 +27,6 @@ To run the extension from source:
 
 ```
 # clone repository
-cd ~/src
 git clone https://github.com/sogaiu/vscode-clojure-colorizer
 cd vscode-clojure-colorizer
 
