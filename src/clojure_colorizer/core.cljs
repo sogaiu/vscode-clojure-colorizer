@@ -288,7 +288,7 @@
 
 (defn activate
   [^js ctx]
-  (.log js/console "activating clojure defs")
+  (.log js/console "activating clojure colorizer")
   (pc/let [_ (.init Parser)
            wasm-path
            (.join path
@@ -317,4 +317,4 @@
 
 (defn deactivate
   []
-  (.log js/console "deactivating clojure defs"))
+  (.log js/console "deactivating clojure colorizer"))
